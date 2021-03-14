@@ -1,0 +1,32 @@
+
+# portfolio.optimisation
+plist = setAssetList
+pinit = setInitPort 
+pmoments = setAssetMoments 
+pcosts = setCosts
+cbounds = setBounds 
+boundstype = setBoundsType #
+cbudget = setBudget 
+cnetreturn = setNetReturnTarget #
+cturnover = setTurnover 
+cturnover_oneway = setOneWayTurnover 
+ctracking = setTrackingPort 
+ctracking_error = setTrackingError  #
+cminmax = setMinMaxNumAssets
+cequal = addEquality 
+cinequal = addInequality 
+cgroups = addGroups 
+mvp = estimateMinimumVariancePortfolio 
+mrp = estimateMaximumNetReturnPortfolio 
+optrisk = estimateFrontierByReturn 
+optreturn = estimateFrontierByRisk 
+optfrontier = estimateFrontier 
+optSharpe = estimateMaxSharpeRatio
+plotfrontier = plotFrontier 
+plotalloc = plotFrontierAllocations 
+plotSharpe = plotSharpeRatio
+calcSharpe = computePortSharpeRatio 
+calcmoments = computePortMoments 
+calcreturns = computePortReturn 
+calcrisk = computePortRisk 
+calcpdif = portfolioDiff
