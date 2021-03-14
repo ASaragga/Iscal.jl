@@ -6,7 +6,6 @@ using Roots                                 # rates_of_return.jl, fixed-income_s
 using StatsBase                             # data_transformation.jl
 using Distributions                         # price_derivatives.jl
 using TimeSeries                            # timetables.jl
-using XLSX, Tables                          # excel_tests.jl
 using AlphaVantage                          # financial_data.jl
 using CSV, HTTP                             # financial_data.jl
 using JSON                                  # financial_data.jl
@@ -14,14 +13,12 @@ using DelimitedFiles                        # From stdlib
 using Statistics                            # From stdlib
 using DataFrames                            # financial_data.jl
 using StatsPlots
-using NaNMath
 using ShiftedArrays
 using JuMP                                  # portfolio_optimisation.jl
 using Ipopt                                 # portfolio_optimisation.jl  (LP, QP, NLP)          / EPL
 using Juniper                               # portfolio_optimisation.jl  (MISOCP, MINLP)        / MIT
 using Cbc                                   # portfolio_optimisation.jl  (MILP)                 / EPL
 using SCS                                   # portfolio_optimisation.jl  (LP, SOCP, SDP)        / MIT
-using SDDP                                  #                            (convex stochastic programming)
 using LaTeXStrings                          # portfolio.optimisation.jl
 
 
